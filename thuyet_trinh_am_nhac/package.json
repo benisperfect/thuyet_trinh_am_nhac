@@ -1,0 +1,18 @@
+{
+  "name": "am-nhac-12-nghe-thuat-truyen-thong",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Bài thuyết trình môn Âm nhạc lớp 12: Chèo, Tuồng, Cải lương và Ca trù (Slidev)",
+  "scripts": {
+    "dev": "slidev --open",
+    "build": "slidev build",
+    "export": "slidev export --output am-nhac-12-nghe-thuat-truyen-thong.pdf"
+  },
+  "dependencies": {
+    "@slidev/cli": "^52.1.0",
+    "@slidev/theme-default": "^0.25.0",
+    "am-nhac-12-nghe-thuat-truyen-thong": "link:",
+    "vue": "^3.5.13"
+  }
+}
